@@ -47,7 +47,7 @@ def main(first_cookie: bool=True) -> None:
         if choice in ("y", ""):
                 fortune = get_wisdom()
                 print_fortune(fortune)
-        elif choice == "n":
+        else choice == "n":
             print("\nCome back for more anytime!")
             return None
         else:
