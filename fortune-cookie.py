@@ -14,7 +14,8 @@ def get_wisdom() -> str:
         "Errors should never pass silently",
         "Coding repetition prevents code repetition",
         "No obstacles are truly removed by pushing with force",
-	"fajfauhfahfa"
+	      "fajfauhfahfa",
+        "Let branches be pointers in your life"
     ]
 
     fortune = random.choice(fortunes)
