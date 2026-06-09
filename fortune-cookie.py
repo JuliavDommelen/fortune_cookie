@@ -13,7 +13,9 @@ def get_wisdom() -> str:
         "Commit to two things in life: your spouse and git",
         "Errors should never pass silently",
         "Coding repetition prevents code repetition",
-        "No obstacles are truly removed by pushing with force"
+        "No obstacles are truly removed by pushing with force",
+        "The best way to get a project done faster is to start sooner",
+        "Don't let perfection be the enemy of good enough"
     ]
 
     fortune = random.choice(fortunes)
@@ -22,7 +24,7 @@ def get_wisdom() -> str:
 
 def print_fortune(fortune: str) -> None:
     """Print your fortune"""
-    print("\n✨ Your fortune: ✨")
+    print("\n✨✨ Your fortune: ✨✨")
     print(f"\"{fortune}\"\n")
 
 def main(first_cookie: bool=True) -> None:
@@ -42,7 +44,7 @@ def main(first_cookie: bool=True) -> None:
     
     # Ask for another cookie
     while True:
-        choice = input("Would you like another cookie 🥠 (Y/n)").strip().lower()
+        choice = input("🥠 Would you like another cookie 🥠 (Y/n)").strip().lower()
 
         if choice in ("y", ""):
                 fortune = get_wisdom()
@@ -57,4 +59,4 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\nCome back for more anytime!")
+        print("\n ✨ Come back for more anytime! ✨ ")
