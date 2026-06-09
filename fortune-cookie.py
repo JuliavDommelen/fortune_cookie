@@ -44,7 +44,7 @@ def main(first_cookie: bool=True) -> None:
     
     # Ask for another cookie
     while True:
-        choice = input("🥠 Would you like another cookie 🥠 (Y/n)").strip().lower()
+        choice = input("🥠🥠 Would you like another cookie 🥠🥠 (Y/n)").strip().lower()
 
         if choice in ("y", ""):
                 fortune = get_wisdom()
