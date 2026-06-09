@@ -16,6 +16,10 @@ def get_wisdom() -> str:
         "Coding repetition prevents code repetition",
         "No obstacles are truly removed by pushing with force",
 	      "fajfauhfahfa",
+        "Life is too short to learn all the programming languages",
+        "The best way to predict the future is to create it",
+        "The best way to get a project done faster is to start sooner",
+        "Don't let perfection be the enemy of good enough",
         "One bird in hand is better than two in the bush",
         "No obstacles are truly removed by pushing with force",
         "Don't be afraid to ask for help, even if it means asking a rubber duck",
@@ -30,7 +34,7 @@ def get_wisdom() -> str:
 
 def print_fortune(fortune: str) -> None:
     """Print your fortune"""
-    print("\n✨ Your fortune: ✨")
+    print("\n✨✨ Your fortune: ✨✨")
     print(f"\"{fortune}\"\n")
 
 def main(first_cookie: bool=True) -> None:
@@ -50,7 +54,7 @@ def main(first_cookie: bool=True) -> None:
     
     # Ask for another cookie
     while True:
-        choice = input("Would you like another cookie 🥠 (Y/n)").strip().lower()
+        choice = input("🥠🥠 Would you like another cookie 🥠🥠 (Y/n)").strip().lower()
 
         if choice in ("y", ""):
                 fortune = get_wisdom()
@@ -65,4 +69,4 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\nCome back for more anytime!")
+        print("\n ✨ Come back for more anytime! ✨ ")
