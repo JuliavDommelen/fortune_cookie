@@ -13,7 +13,9 @@ def get_wisdom() -> str:
         "Commit to two things in life: your spouse and git",
         "Errors should never pass silently",
         "Coding repetition prevents code repetition",
-        "No obstacles are truly removed by pushing with force"
+        "No obstacles are truly removed by pushing with force",
+        "In the face of ambiguity, refuse the temptation to guess",
+        "There should be one-- and preferably only one --obvious way to do it",
     ]
 
     fortune = random.choice(fortunes)
